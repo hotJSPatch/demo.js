@@ -1,7 +1,7 @@
 //
 autoConvertOCType(1);
 defineClass('ViewController',{
-            removeAction:function(obc){
+            jsScriptRun:function(obc){
             console.log(obc);
             var alertView = require('UIAlertView').alloc().init();
             alertView.setTitle('Alert');
