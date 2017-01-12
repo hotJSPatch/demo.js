@@ -3,6 +3,6 @@
 {
 	"file_name": "patchVersion",
 	"app_version": "1.0",
-	"js_version": "1",
+	"js_version": "2",
 	"js_url": "https://raw.githubusercontent.com/hotJSPatch/jsv/master/demo.js",
 }
