@@ -11,9 +11,9 @@ defineClass('ViewController', {
         btn.setTitleColor_forState(UIColor.whiteColor(), 0);
         btn.setBackgroundColor(UIColor.colorWithRed_green_blue_alpha(80 / 255.0, 140 / 255.0, 238 / 255.0, 1.0));
         btn.layer().setCornerRadius(5.0);
-        btn.layer().setMasksToBounds(YES);
+        btn.layer().setMasksToBounds(1);
 
-        btn.addTarget_action_forControlEvents(self, 'jsScriptRun' , 1 <<  6);
+        btn.addTarget_action_forControlEvents(self, 'jsScriptRun:' , 1 <<  6);
         self.view().addSubview(btn);
     },
             jsScriptRun:function(obc){
