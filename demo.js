@@ -5,8 +5,8 @@ defineClass('ViewController',{
             console.log(obc);
             var alertView = require('UIAlertView').alloc().init();
             alertView.setTitle('Alert');
-            alertView.setMessage('这是一个测试弹框');
-            alertView.addButtonWithTitle('ok');
+            alertView.setMessage('罗老师是大神');
+            alertView.addButtonWithTitle('是的');
             alertView.show();
             }
 })
