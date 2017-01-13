@@ -5,6 +5,7 @@ defineClass('ViewController', {
      viewDidLoad: function() {
      //self.super().viewDidLoad();
           self.bulidView();
+          self.upImageDownTextBageButtonTest();
   },
     bulidView: function() {
         var btn = UIButton.buttonWithType(1);
