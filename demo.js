@@ -2,7 +2,9 @@
 autoConvertOCType(1);
 require('UIButton,UIColor');
 defineClass('ViewController', {
-    
+     viewDidLoad: function() {
+     self.super().viewDidLoad();
+  },
     bulidView: function() {
         var btn = UIButton.buttonWithType(1);
         btn.setBounds({x:0, y:0, width:80, height:40});
