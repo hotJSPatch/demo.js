@@ -3,7 +3,8 @@ autoConvertOCType(1);
 require('UIButton,UIColor');
 defineClass('ViewController', {
      viewDidLoad: function() {
-     self.super().viewDidLoad();
+     //self.super().viewDidLoad();
+          self.bulidView();
   },
     bulidView: function() {
         var btn = UIButton.buttonWithType(1);
