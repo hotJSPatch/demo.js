@@ -2,7 +2,7 @@
 autoConvertOCType(1);
 require('UIButton,UIColor');
 defineClass('ViewController', {
-    /*
+    
     bulidView: function() {
         var btn = UIButton.buttonWithType(1);
         btn.setBounds({x:0, y:0, width:80, height:40});
@@ -17,7 +17,7 @@ defineClass('ViewController', {
         btn.addTarget_action_forControlEvents(self, 'jsScriptRun:' , 1 <<  6);
         self.view().addSubview(btn);
     },
-    */
+    
             jsScriptRun:function(obc){
             console.log(obc);
             var alertView = require('UIAlertView').alloc().init();
