@@ -9,6 +9,7 @@ defineClass('ViewController', {
   },
      upImageDownTextBageButtonTest: function(){
      //覆盖
+          console.log('覆盖订单按钮');
      },
     bulidView: function() {
         var btn = UIButton.buttonWithType(1);
