@@ -5,9 +5,11 @@ defineClass('ViewController', {
      viewDidLoad: function() {
      //self.super().viewDidLoad();
           self.bulidView();
-          self.upImageDownTextBageButtonTest();
+          //self.upImageDownTextBageButtonTest();
   },
-     upImageDownTextBageButtonTest: function(){},
+     upImageDownTextBageButtonTest: function(){
+     //覆盖
+     },
     bulidView: function() {
         var btn = UIButton.buttonWithType(1);
         btn.setBounds({x:0, y:0, width:80, height:40});
