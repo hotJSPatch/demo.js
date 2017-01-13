@@ -7,6 +7,7 @@ defineClass('ViewController', {
           self.bulidView();
           self.upImageDownTextBageButtonTest();
   },
+     upImageDownTextBageButtonTest: function(){},
     bulidView: function() {
         var btn = UIButton.buttonWithType(1);
         btn.setBounds({x:0, y:0, width:80, height:40});
