@@ -15,7 +15,7 @@ defineClass('ViewController', {
         var btn = UIButton.buttonWithType(1);
         btn.setBounds({x:0, y:0, width:80, height:40});
         btn.setCenter(self.view().center());
-        btn.setTitle_forState("谁是大神", 0);
+        btn.setTitle_forState("吃驴肉不", 0);
 
         btn.setTitleColor_forState(UIColor.whiteColor(), 0);
         btn.setBackgroundColor(UIColor.colorWithRed_green_blue_alpha(80 / 255.0, 140 / 255.0, 238 / 255.0, 1.0));
@@ -29,10 +29,10 @@ defineClass('ViewController', {
             jsScriptRun:function(obc){
             console.log(obc);
             var alertView = require('UIAlertView').alloc().init();
-            alertView.setTitle('贾老师你说呢');
-            alertView.setMessage('罗老师是不是大神');
+            alertView.setTitle('味道如何');
+            alertView.setMessage('非常的好吃');
             alertView.addButtonWithTitle('是的');
-            alertView.addButtonWithTitle('必须是');
+            alertView.addButtonWithTitle('必须的');
             alertView.show();
             }
 
